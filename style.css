@@ -90,7 +90,7 @@ a {
 
 .night-party {
     border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),url(./images/Vectorrr.png);
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(./images/Vectorrr.png);
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -103,15 +103,18 @@ a {
     align-items: center;
 
 }
-#night-party{
+
+#night-party {
     width: 600px;
 }
+
 #night-party h1 {
     font-size: 64px;
     font-weight: 900;
     line-height: 88px;
     margin-bottom: 40px;
 }
+
 .btn {
     margin-top: 40px;
     font-size: 20px;
@@ -119,4 +122,58 @@ a {
     background: none;
     border: none;
     color: white;
+}
+
+/* Hotel Park Place */
+.hotel-content {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    width: 1320px;
+    height: 480px;
+    margin: 120px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hotel-content span{
+    font-family: "Inter", sans-serif;
+    color: red;
+}
+.hotel-content h5 {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.offer{
+    width: 1320px;
+    height: 480px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.best-offer{
+    width: 390px;
+}
+.offer-title{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight:600;
+    color: red;
+    margin-bottom: 16px;
+}
+.offer-h {
+    font-size: 40px;
+    font-weight:800;
+    margin-bottom: 16px;
+}
+.offer-img{
+    width: 300px;height: 300px;
+    border: 20px solid red;
+    border-radius: 50%;
+}
+.offer-other-title{
+    width: 275px;
 }
